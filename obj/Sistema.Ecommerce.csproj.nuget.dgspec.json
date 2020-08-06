@@ -1,0 +1,204 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/alexander/Documents/P3_Experience/Sistema_Ventas/Sistema.Ecommerce/Sistema.Ecommerce.csproj": {}
+  },
+  "projects": {
+    "/home/alexander/Documents/P3_Experience/Sistema_Ventas/Sistema.Ecommerce/Sistema.Ecommerce.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alexander/Documents/P3_Experience/Sistema_Ventas/Sistema.Ecommerce/Sistema.Ecommerce.csproj",
+        "projectName": "Sistema.Ecommerce",
+        "projectPath": "/home/alexander/Documents/P3_Experience/Sistema_Ventas/Sistema.Ecommerce/Sistema.Ecommerce.csproj",
+        "packagesPath": "/home/alexander/.nuget/packages/",
+        "outputPath": "/home/alexander/Documents/P3_Experience/Sistema_Ventas/Sistema.Ecommerce/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alexander/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "/home/alexander/Documents/P3_Experience/Sistema_Ventas/Sistema.Shared/Sistema.Shared.csproj": {
+                "projectPath": "/home/alexander/Documents/P3_Experience/Sistema_Ventas/Sistema.Shared/Sistema.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.11.0, )"
+            },
+            "Microsoft.AspNetCore.Components.Authorization": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Build": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.WebUtilities": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/alexander/Documents/P3_Experience/Sistema_Ventas/Sistema.Shared/Sistema.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alexander/Documents/P3_Experience/Sistema_Ventas/Sistema.Shared/Sistema.Shared.csproj",
+        "projectName": "Sistema.Shared",
+        "projectPath": "/home/alexander/Documents/P3_Experience/Sistema_Ventas/Sistema.Shared/Sistema.Shared.csproj",
+        "packagesPath": "/home/alexander/.nuget/packages/",
+        "outputPath": "/home/alexander/Documents/P3_Experience/Sistema_Ventas/Sistema.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alexander/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.11.0, )"
+            },
+            "Microsoft.AspNetCore.Components.Authorization": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.AspNetCore.WebUtilities": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
