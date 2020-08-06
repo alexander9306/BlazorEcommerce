@@ -27,7 +27,13 @@ jobs:
         # Generate the website
         - name: Publish
           run: dotnet publish Sistema.Ecommerce/Sistema.Ecommerce.csproj --configuration Release
-         
+          
+        # Rewrite base href 
+        - name: Rewrite base href
+    	     uses: SteveSandersonMS/ghaction-rewrite-base-href@v1
+           with:
+        	    html_path: ${{ env.PUBLISH_DIR }}/index.html
+        	    base_href: /BlazorEcommerce/
           		
         # Publish the website
         - name: GitHub Pages action
