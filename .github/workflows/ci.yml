@@ -34,7 +34,7 @@ jobs:
           with:
             html_path: ${{ env.PUBLISH_DIR }}/index.html
             base_href: /BlazorEcommerce/
-          		
+        
         # Publish the website
         - name: GitHub Pages action
           if: ${{ github.ref == 'refs/heads/master' }} # Publish only when the push is on master
