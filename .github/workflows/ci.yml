@@ -33,10 +33,12 @@ jobs:
         
         # Publish the website
         - name: GitHub Pages action
-          if: success()
-          uses: crazy-max/ghaction-github-pages@v1.5.1
+          if: ${{ github.ref == 'refs/heads/master' }} # Publish only when the push is on master
+          uses: peaceiris/actions-gh-pages@v3.6.1
           with:
-            target_branch: gh-pages
-            build_dir: ${{ env.PUBLISH_DIR }}
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            github_token: ${{ secrets.PUBLISH_TOKEN }}
+            publish_branch: gh-pages
+            publish_dir: ${{ env.PUBLISH_DIR }}
+            allow_empty_commit: false
+            keep_files: false
+            force_orphan: true
