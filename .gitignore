@@ -1,3 +1,5 @@
+.vscode/
+.editorconfig
 
 Sistema.Api/
 Sistema.Admin/

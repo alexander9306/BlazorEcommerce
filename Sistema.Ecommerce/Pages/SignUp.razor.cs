@@ -30,7 +30,7 @@
                 this.StateHasChanged();
                 await Task.Delay(1300).ConfigureAwait(true);
 
-                this.NavigationManager.NavigateTo("/login");
+                this.NavigationManager.NavigateTo("login");
             }
             else
             {
